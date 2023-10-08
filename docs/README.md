@@ -63,7 +63,7 @@
     		r (int): радиус окружности
 
 	Возвращаемое значение:
-    		(float): Периметр окружности
+		(float): Периметр окружности
 
     Example: Параметр r = 4; Возвращаемое значение: 25.12. 
 
@@ -106,7 +106,7 @@
 
     Example: Параметр a = 2, b = 3, c = 4; Возвращаемое значение: 9. 
 
-##History
+## History
 
 commit a4c5b6f78ccc8f250ed0484ea067e936ae2e0e12 (HEAD -> new_features_409657, origin/new_features_409657, origin/main, origin/HEAD, main)
 Author: MaryLague <sytina-m06@mail.ru>
