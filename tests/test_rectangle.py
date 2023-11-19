@@ -1,7 +1,5 @@
 import unittest
 
-import rectangle
-
 class RectangleTestCase(unittest.TestCase) :
     
     def test_zero_mul(self):
