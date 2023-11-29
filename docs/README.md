@@ -110,10 +110,83 @@
 
     Example: Параметр a = 2, b = 3, c = 4; Возвращаемое значение: 9. 
 
+## Tests
+
+   SquareTestCase:
+
+      test_zero_area(): area(0)
+      test_area1(): area(5)
+      test_area2(): area(70)
+      test_zero_perimeter(): perimeter(0)
+      test_perimeter1(): perimeter(6)
+      test_perimeter2(): perimeter(8)
+
+   CircleTestCase:
+
+      test_zero_area(): area(0)
+      test_area1(): area(5)
+      test_area2(): area(98)
+      test_zero_perimeter(): perimeter(0)
+      test_perimeter1(): perimeter(8)
+      test_perimeter2(): perimeter(24)
+
+   RectangleTestCase:
+
+      test_zero_area(): area(10, 0)
+      test_area1(): area(12, 10)
+      test_area2(): area(5, 12)
+      test_zero_perimeter1(): perimeter(10, 0)
+      test_zero_perimeter2(): perimeter(0, 0)
+      test_perimeter1(): perimeter(16, 4)
+      test_perimeter2(): perimeter(4, 6)
+
+   TriangleTestCase:
+
+      test_zero_area(): area(0, 5)
+      test_area1(): area(5, 2)
+      test_area2(): area(70, 4)
+      test_zero_perimeter(): perimeter(0, 0, 0)
+      test_perimeter1(): perimeter(4, 5, 8)
+      test_perimeter2(): perimeter(59, 62, 6)
 
 ## History
 
-commit a4c5b6f78ccc8f250ed0484ea067e936ae2e0e12 (HEAD -> new_features_409657, origin/new_features_409657, origin/main, origin/HEAD, main)
+commit f5b9d35c9be44713a1e5963a5a39a3fce3405b23 (HEAD -> new_features_409657, origin/new_features_409657)
+Author: Marylague <sytinamaria1@gmail.com>
+Date:   Wed Nov 22 12:56:31 2023 +0300
+
+    update tests
+
+commit 1677671bd066ed8d5ec6b92eb980ed83c14304a4
+Author: Marylague <sytinamaria1@gmail.com>
+Date:   Sun Nov 19 15:01:43 2023 +0300
+
+    add file in tests/
+
+commit b593707b69b6e07d2a1d4b23be0e4e25ee48875a
+Author: Marylague <sytinamaria1@gmail.com>
+Date:   Sun Nov 19 14:58:51 2023 +0300
+
+    tests were added
+
+commit 8f1b09fc603830c6920e9dec7d3e91d4a00ab81a
+Author: MaryLague <sytina-m06@mail.ru>
+Date:   Mon Oct 9 21:27:28 2023 +0300
+
+    fix docs 4
+
+commit d42246e0f824256c7b912f0bccbd08bf06e1979e
+Author: MaryLague <sytina-m06@mail.ru>
+Date:   Mon Oct 9 21:23:01 2023 +0300
+
+    fix docs 3
+
+commit 163e4a08378aafb0b9ae54935224287d1b0a5324
+Author: MaryLague <sytina-m06@mail.ru>
+Date:   Sun Oct 8 18:36:58 2023 +0300
+
+
+commit a4c5b6f78ccc8f250ed0484ea067e936ae2e0e12
 Author: MaryLague <sytina-m06@mail.ru>
 Date:   Thu Sep 28 15:49:57 2023 +0300
 

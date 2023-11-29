@@ -20,6 +20,10 @@ class TriangleTestCase(unittest.TestCase) :
         res = area(70, 4)
         self.assertEqual(res, 140)
 
+    def test_zero_perimeter(self):
+        res = perimeter(0, 0, 0)
+        self.assertEqual(res, 0)
+
     def test_perimeter1(self):
         res = perimeter(4, 5, 8)
         self.assertEqual(res, 17)
