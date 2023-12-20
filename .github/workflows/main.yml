@@ -6,7 +6,7 @@ jobs:
     work_ubuntu:
       runs-on: ubuntu-latest
       steps:
-          - uses: actions/checkout@v3
+          - uses: actions/checkout@v4
           - name: Run a multi-line script
             run: |
               python -m test_cicrle.py
@@ -16,7 +16,7 @@ jobs:
     work_windows:
       runs-on: windows-latest
       steps:
-          - uses: actions/checkout@v3
+          - uses: actions/checkout@v4
           - name: Run a multi-line script
             run: |
               python -m test_cicrle
