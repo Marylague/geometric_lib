@@ -1,7 +1,7 @@
 name: CI
 on:
     push:
-      branches: [ "new_features_409657" ]
+      branches: [ "main" ]
 jobs:
     work_ubuntu:
       runs-on: ubuntu-latest
