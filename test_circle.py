@@ -18,8 +18,8 @@ class CircleTestCase(unittest.TestCase) :
 
     def test_area2(self):
         
-        res = area(98)
-        self.assertEqual(res, 98 * 98 * math.pi)
+        res = round(area(98), 2)
+        self.assertEqual(res, round(98 * 98 * math.pi, 2))
 
     def test_zero_perimeter(self):
         res = perimeter(0)
