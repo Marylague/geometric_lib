@@ -1,0 +1,25 @@
+name: CI
+on:
+    push:
+      branches: [ "new_features_409657" ]
+jobs:
+    work_ubuntu:
+      runs-on: ubuntu-latest
+      steps:
+          - uses: actions/checkout@v3
+          - name: Run a multi-line script
+            run: |
+              python -m tests/test_cicrle
+              python -m tests/test_rectangle
+              python -m tests/test_square
+              python -m tests/test_triangle
+    work_windows:
+      runs-on: windows-latest
+      steps:
+          - uses: actions/checkout@v3
+          - name: Run a multi-line script
+            run: |
+              python -m tests/test_cicrle
+              python -m tests/test_rectangle
+              python -m tests/test_square
+              python -m tests/test_triangle
